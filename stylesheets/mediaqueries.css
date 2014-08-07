@@ -1,0 +1,63 @@
+@media only screen and (min-width: 768px) and ( max-width: 1023px ){
+	address{
+		margin-left: 8%;
+	}
+	.likes{
+		width: 310px;
+		margin-top: 0px;
+	}
+	.likes a{
+		margin: 0 6.5% 8%;
+	}
+	.likes a:nth-child(3){
+		margin-right: 0;
+	}
+	.likes a:last-of-type{
+		margin: 0 4.5%;
+	}
+}
+
+@media only screen and (min-width: 480px) and ( max-width: 767px ){
+	.likes a{
+		margin: 0 3%;
+	}
+}
+
+@media only screen and ( max-width: 767px ){
+	footer {
+		padding-bottom: 9%;
+	}
+	address,
+	.likes{
+		float: none;
+		margin: 0 auto;
+	}
+	address{
+		text-align: center;
+		margin-top: 6%;
+		font: normal 23px/32px 'MYRIADPRO';
+		color: #7f7f87;
+	}
+	address a {
+		background-color: #1e1e22;
+		width: 216px;
+		margin: 14px auto;
+		color: #7f7f87;
+	}
+}
+
+@media only screen and ( max-width: 479px ){
+	.likes{
+		width: 310px;
+		margin-top: 0px;
+	}
+	.likes a{
+		margin: 0 6.5% 8%;
+	}
+	.likes a:nth-child(3){
+		margin-right: 0;
+	}
+	.likes a:last-of-type{
+		margin: 0 4.5%;
+	}
+}
