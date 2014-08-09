@@ -39,7 +39,7 @@
 	.horror-stories{
 		display: block;
 		font-size: 18px;
-		width: 54%;
+		width: 53%;
 		margin: 1.5% auto 0 auto;
 		padding-bottom: 2%;
 	}
@@ -116,7 +116,7 @@
 	}
 	.phones{
 		position: static;
-		margin-bottom: 160px;
+		/* margin-bottom: 127px; */
 	}
 	.look{
 		position: relative;
@@ -126,15 +126,18 @@
 	.iphone{
 		position: relative;
 		top: 178px;
-		left: 63px;
+		left: 75px;
 		float: left;
-	}
+	
+}
 	.ipad{
 		position: relative;	
 		top: -65px;
 		left: -18px;
 		float: right;
-	}
+	
+		width: 517px;
+}
 	address{
 		margin-left: 8%;
 	}
@@ -279,6 +282,27 @@
 		color: #bcbaab;
 		text-decoration: underline;
 	}
+	.iphone .button{
+		width: 34px;
+		height: 62px;
+		border: none;
+		background: url('../assets/images/arrows_big.png') 0 0 no-repeat;
+		background-size: 90px 50px;
+		background-color: transparent;
+		position: relative;
+		bottom: 227px;
+	}
+	.iphone .button:first-of-type{
+		background-position: -62px 7px;
+		right: 45%;
+	}
+	.iphone .button:last-of-type{
+		background-position: 6px 7px;
+		left: 45%;
+	}
+	.iphone .slider-control {
+		margin: 5px 50px;
+	}
 	.additional-info{
 		margin-top: 5%;
 	}
@@ -349,6 +373,12 @@
 	}
 	header .info{
 		margin-left: 0;
+	}
+	.iphone .button:first-of-type{
+		right: 45%;
+	}
+	.iphone .button:last-of-type{
+		left: 45%;
 	}
 	.likes{
 		width: 300px;

@@ -258,14 +258,14 @@ header h1 {
 }
 .phones{
 	position: relative;
-	max-width: 756px;
+	max-width: 760px;
 	margin: 0 auto;
 }
 .iphone{
 	position: absolute;
 	right: 304px;
 	bottom: -136px;
-	width: 234px;
+	width: 233px;
 	height: 532px;
 	background: url('../assets/images/iphone.png') no-repeat;
 	background-size: 100% auto;
@@ -323,7 +323,7 @@ header h1 {
 	width: 414px;
 }
 .iphone .slider-control{
-	margin: 21px 50px;
+	margin: 21px 45px;
 }
 .ipad .slider-control{
 	margin: 27px 193px;
@@ -348,7 +348,7 @@ header h1 {
 }
 .additional-info{
 	text-align: center;   
-	margin-top: 17%;
+	margin-top: 16%;
 }
 .additional-info div{
 	display: inline-block;
