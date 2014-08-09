@@ -25,7 +25,7 @@ img{
 	position: relative;
 	margin: 0 auto;
 	max-width: 1024px;
-	min-width: 320px;
+	min-width: 300px;
 }
 header{
 	background: url('../assets/images/bg-top.png') 0 12px repeat-x;
@@ -82,11 +82,10 @@ header .wrapper{
 	background-size: 100% auto;
 	height: 20px;
 	border: none;
-	width: 96%;
-	margin: 25px;
+	margin-top: 25px;
 }
 .history{
-	padding-bottom: 62px;
+	padding-bottom: 66px;
 }
 .history h2{
 	font: normal 43px/28px 'RobotoCondensed';
@@ -107,10 +106,6 @@ header .wrapper{
 	font-style: italic;
 	text-decoration: underline;
 }
-
-
-
-
 address{
 	font: normal 23px 'PT-sans';
 	color: #616060;

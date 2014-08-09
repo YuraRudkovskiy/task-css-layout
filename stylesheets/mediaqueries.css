@@ -1,4 +1,15 @@
+@media only screen and ( max-width: 1023px ){
+	.additional-info hr,
+	.history{
+		display: none;
+	}
+	
+}
+
 @media only screen and (min-width: 768px) and ( max-width: 1023px ){
+	.additional-info {
+		padding-bottom: 37px;
+	}
 	address{
 		margin-left: 8%;
 	}
@@ -24,6 +35,15 @@
 }
 
 @media only screen and ( max-width: 767px ){
+	.additional-info p{
+		line-height: 21px;
+	}
+	.additional-info div{
+		margin-bottom: 22px;
+	}
+	.additional-info div:nth-of-type(3){
+		display: none;
+	}
 	footer {
 		padding-bottom: 9%;
 	}
@@ -48,7 +68,7 @@
 
 @media only screen and ( max-width: 479px ){
 	.likes{
-		width: 310px;
+		width: 300px;
 		margin-top: 0px;
 	}
 	.likes a{
