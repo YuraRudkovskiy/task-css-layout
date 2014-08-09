@@ -375,10 +375,10 @@
 		margin-left: 0;
 	}
 	.iphone .button:first-of-type{
-		right: 45%;
+		right: 35%;
 	}
 	.iphone .button:last-of-type{
-		left: 45%;
+		left: 35%;
 	}
 	.likes{
 		width: 300px;
