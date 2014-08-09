@@ -144,7 +144,7 @@ header .main-wrapper{
 header .info{
 	width: 35%;
 	margin-left: 2.82292%;
-	margin-top: 6%;
+	margin-top: 8%;
 	padding-bottom: 9%;
 }
 header h1 {
@@ -158,12 +158,10 @@ header h1 {
 	float: left;
 	width: 26%;
 }
-header .look{
-	position: relative;
-	float: left;
-	margin: 82px 0 0 59px;
-}
 .look{
+	position: absolute;
+	bottom: 634px;
+	left: 203px;
 	display: inline-block;
 	width: 140px;
 	font: normal 28px/28px 'm_brody';
@@ -190,6 +188,7 @@ header .look{
 	border-radius: 8px;
 	padding: 3% 0% 5% 27%;
 	box-sizing: border-box;
+	color: white;
 }
 .head-text{
 	width: 100%;
@@ -211,9 +210,6 @@ header .look{
 .source{
 	font: normal 17px 'MYRIADPRO';
 	margin: 4% 0;
-}
-.source:visited{
-	color: white;
 }
 .source strong{
 	position: relative;
@@ -260,11 +256,96 @@ header .look{
 .source.s2:hover strong::before{
 	background-position: 0 0;
 }
-
-
-
-
-
+.phones{
+	position: relative;
+	max-width: 756px;
+	margin: 0 auto;
+}
+.iphone{
+	position: absolute;
+	right: 304px;
+	bottom: -136px;
+	width: 234px;
+	height: 532px;
+	background: url('../assets/images/iphone.png') no-repeat;
+	background-size: 100% auto;
+}
+.ipad{
+	position: absolute;
+	left: 367px;
+	bottom: -75px;
+	width: 521px;
+	height: 715px;
+	background: url('../assets/images/ipad.png') no-repeat;
+	background-size: 100% auto;
+}
+.ipad .button,
+.iphone .button{
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	border: 2px solid #424141;
+	background: url('../assets/images/navigation.png') 0 0 no-repeat;
+	background-size: 56px 18px;
+	background-color: #2b2b29;
+	display: inline-block;
+}
+.ipad .button:first-of-type,
+.iphone .button:first-of-type{
+	background-position: -29px 7px;
+}
+.ipad .button:last-of-type,
+.iphone .button:last-of-type{
+	background-position: 5px 7px;
+}
+.iphone .button:first-of-type{
+	margin: 12px 0 0 41px;
+}
+.iphone .button:last-of-type{
+	margin: 12px 0 0 83px;
+}
+.ipad .button:first-of-type{
+	margin: 5px 0 0 178px;
+}
+.ipad .button:last-of-type{
+	margin: 5px 0 0 83px;
+}
+.ipad .button:hover,
+.iphone .button:hover{
+	opacity: 0.4;
+}
+.iphone img{
+	margin: 72px 0 0 20px; 
+	width: 198px;
+}
+.ipad img{
+	margin: 60px 0 0 54px; 
+	width: 414px;
+}
+.iphone .slider-control{
+	margin: 21px 50px;
+}
+.ipad .slider-control{
+	margin: 27px 193px;
+}
+.slider-control li{
+	display: inline-block;
+	margin-left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: #85837d;
+}
+.slider-control .active{
+	background: black;
+	box-shadow: 0px 3px 2px #dcdcdd;
+}
+.denotation{
+	display: none;
+}
 .additional-info{
 	text-align: center;   
 	margin-top: 17%;

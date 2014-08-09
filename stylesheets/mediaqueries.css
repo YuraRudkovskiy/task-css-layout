@@ -2,9 +2,6 @@
 	header{
 		background-position: 0 5px;
 	}
-	header .look{
-		display: none;
-	}
 	.logo{
 		border-bottom-left-radius: 15px;
 		border-bottom-right-radius: 15px;
@@ -116,6 +113,27 @@
 		width: 47px;
 		margin: 77px 4% 0;
 		display: inline-block;
+	}
+	.phones{
+		position: static;
+		margin-bottom: 160px;
+	}
+	.look{
+		position: relative;
+		top: 60px;
+		left: 39px;
+	}
+	.iphone{
+		position: relative;
+		top: 178px;
+		left: 63px;
+		float: left;
+	}
+	.ipad{
+		position: relative;	
+		top: -65px;
+		left: -18px;
+		float: right;
 	}
 	address{
 		margin-left: 8%;
@@ -232,7 +250,38 @@
 	.additional-info div:nth-of-type(3){
 		display: none;
 	}
-
+	.look{
+		display: none;
+	}
+	.ipad{
+		display: none;
+	}
+	.phones{
+		position: static;
+		width: 100%;
+		background: radial-gradient(rgba(200,200,220,0.3) 5%, rgba(0,0,0,0) 60%) 325px 10px no-repeat,       
+					url('../assets/images/bg-top.png') 0 0 repeat-x;
+		margin-top: 21px;
+	}
+	.iphone{
+		position: static;
+		margin: 0 auto;
+	}
+	.denotation{
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 20px 0;
+		font: normal 24px 'MYRIADPRO';
+		color: #525051;
+	}
+	.denotation strong {
+		color: #bcbaab;
+		text-decoration: underline;
+	}
+	.additional-info{
+		margin-top: 5%;
+	}
 	footer {
 		padding-bottom: 9%;
 	}
