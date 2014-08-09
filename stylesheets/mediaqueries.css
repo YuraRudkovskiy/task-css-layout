@@ -1,12 +1,74 @@
 @media only screen and ( max-width: 1023px ){
+	header{
+		background-position: 0 5px;
+	}
+	header .look{
+		display: none;
+	}
+	.logo{
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
 	.additional-info hr,
 	.history{
 		display: none;
 	}
-	
 }
 
 @media only screen and (min-width: 768px) and ( max-width: 1023px ){
+	.social-networks{
+		margin-top: 2.994792%;
+		margin-right: 5.2%;
+		width: 65%;
+	}
+	.social-networks button{
+		margin-left: 0;
+		margin-right: 9%;
+	}
+	.social-networks button:first-of-type {
+		margin-right: 3%;
+	}
+	header .info{
+		margin-top: 12%;
+		width: 100%;
+		position: relative;
+		text-align: center;
+		padding-bottom: 4%;
+	}
+	.horror-stories{
+		display: block;
+		font-size: 18px;
+		width: 54%;
+		margin: 1.5% auto 0 auto;
+		padding-bottom: 2%;
+	}
+	.story {
+		width: 13%;
+		max-width: 84px;
+		margin-left: 28%;
+	}
+	.nerves{
+		display: none;
+	}
+	header h1 {
+		float: left;
+		width: 39%;
+		padding: 0 8% 0 1%;
+		text-align: left;
+	}
+	.availability{
+		position: absolute;
+		bottom: 112%;	
+		width: 100%;
+	}
+	.availability::before{
+		left: 80%;
+		width: 31%;
+	}
+	.availability::after{
+		right: 48%;
+		width: 36%;
+	}
 	.additional-info {
 		padding-bottom: 37px;
 	}
@@ -29,12 +91,93 @@
 }
 
 @media only screen and (min-width: 480px) and ( max-width: 767px ){
+	.social-networks button:first-of-type {
+		margin-right: 9%;
+	}
+	header .info{
+		margin-top: 5%;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.horror-stories{
+		display: block;
+		font-size: 19px;
+		width: 86%;
+		margin: -2.5% auto 0;
+		text-align: justify;
+	}
+	.story {
+		max-width: 84px;
+		width: 17%;
+		margin: 0 auto;
+		float: none;
+	}
+	header h1 {
+		width: 100%;
+		font-size: 31px;
+		margin-top: 6%;
+		float: none;
+	}
+	.availability{	
+		width: 100%;
+		position: absolute;
+		bottom: 63.5555%;
+	}
+	.availability::before{
+		left: 85%;
+		width: 21%;
+	}
+	.availability::after{
+		right: 64%;
+		width: 20%;
+	}
+	.nerves{
+		visibility: hidden;
+	}
+	header .info{
+		margin-left: 0;
+	}
 	.likes a{
 		margin: 0 3%;
 	}
 }
 
 @media only screen and ( max-width: 767px ){
+	.logo{
+		width: 12.92%;
+	}
+	.cat{
+		width: 70.96774%;
+		margin: 14.51613% 14.51613% 14.51613%;
+	}
+	.cat-will{
+		display: none;
+	}
+	.social-networks button{
+		width: 44px;
+		height: 44px;
+		margin-left: 13.158594%;
+	}
+	.social-networks button:last-of-type {
+		margin-left: 0;
+	}
+	.social-networks{
+		width: 80%;
+		margin-right: 1%;
+	}
+	.social-networks .twitter{
+		background-position: 11px 12px;
+	}
+	.social-networks .facebook{
+		background-position: 16px 12px;
+	}
+	.social-networks .mail{
+		background-position: 11px 13px;
+	}
+	.social-networks .vk{
+		background-position: 7px 15px;
+	}
 	.additional-info p{
 		line-height: 21px;
 	}
@@ -67,6 +210,52 @@
 }
 
 @media only screen and ( max-width: 479px ){
+	.social-networks{
+		width: 75%;
+	}
+	.social-networks button:first-of-type {
+		margin-right: 2%;
+	}
+	.social-networks button{
+		margin-left: 5.158594%;
+	}
+	header .info{
+		margin-top: 5%;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.horror-stories{
+		display: block;
+		font-size: 19px;
+		width: 75%;
+		margin: 9.5% auto 4%;
+	}
+	.story {
+		width: 23%;
+		margin: 6% 0 0 18%;
+	}
+	header h1 {
+		font-size: 31px;
+		margin-top: 6%;
+		text-align: left;
+		width: 54%;
+	}
+
+	.availability::before{
+		left: 92%;
+		width: 13%;
+	}
+	.availability::after{
+		right: 78%;
+		width: 14%;
+	}
+	.nerves{
+		display: none;
+	}
+	header .info{
+		margin-left: 0;
+	}
 	.likes{
 		width: 300px;
 		margin-top: 0px;

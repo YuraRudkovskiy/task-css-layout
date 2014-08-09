@@ -32,11 +32,153 @@ header{
 	background-color: #33333b;
 }
 header .wrapper{
-	height: 300px;
 	background: radial-gradient(rgba(200,200,220,0.3) 5%, rgba(0,0,0,0) 60%) 194px 0 no-repeat;
 	background-size: 800px 641px;
 }
+.logo{
+	width: 26.041666%;
+	min-width: 62px;
+	margin-left: 1.82292%; 
+	background-color: #33333b;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	float: left;
+}
+.cat{
+	width: 30.41825%;
+	margin: 5.7034% 2.6616% 5.7034% 6.08365%;
+}
+.cat-will{
+	width: 54.75285%;
+	margin-bottom: 14.06844%;
+}
+.social-networks{
+	float: right;
+	margin-top: 5.46875%;
+	margin-right: 7.742188%;
+	width: 44%;
+}
+.social-networks button{
+	width: 58px;
+	height: 58px;
+	margin-left: 9.158594%;
+	border-radius: 50%;
+	border: none;
+	box-shadow: 1px 2px 1px #242529;
+	float: right;
+}
+.social-networks button:first-of-type {
+	background-color: #1e1e22;
+}
+.social-networks .twitter{
+	background: url('../assets/images/twitter.png') 12px 15px no-repeat;
+	background-size: auto 50%;
+	background-color: #33333b;
+}
+.social-networks .facebook{
+	background: url('../assets/images/facebook.png') 22px 14px no-repeat;
+	background-size: auto 50%;
+	background-color: #33333b;
+}
+.social-networks .mail{
+	background: url('../assets/images/mail.png') 15px 17px no-repeat;
+	background-size: auto 44%;
+	background-color: #33333b;
+}
+.social-networks .vk{
+	background: url('../assets/images/vk.png') 10px 19px no-repeat;
+	background-size: auto 40%;
+	background-color: #33333b;
+}
+.availability{
+	position: relative;
+	font: normal 17px/24px 'PT-sans';
+	color: #525051;
+	text-align: center;
+	margin: 3% 0 0 0;
+}
+.separator::before,
+.separator::after,
+.availability::before,
+.availability::after{
+	content: '';
+	position: absolute;
+	width: 65px;
+	height: 1px;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+}
+.separator::before,
+.separator::after{
+	border-top: 1px solid white;
+	background: #d7d7d7;
+	width: 40%;
+}
+.separator::before{
+	right: 40%;
+}
+.separator::after{
+	left: 80%;
+}
+.availability::before{
+	left: 37px;
+	border-top: 1px solid black;
+	background: #525152;
+}
+.availability::after{
+	right: -33px;
+	border-top: 1px solid black;
+	background: #525152;
+}
+.nerves{
+	font: normal 18px/22px 'PT-sans';
+	color: #bcbaab;
+	margin: 3% 0 0 0;
+}
+.horror-stories{
+	font: normal 24px/24px 'Myriad Pro';
+	color: #acaa9d;
+	display: none;
+}
 
+header .info{
+	width: 35%;
+	margin-left: 2.82292%;
+	margin-top: 6%;
+	padding-bottom: 9%;
+}
+header h1 {
+	float: right;
+	width: 74%;
+	box-sizing: border-box;
+	padding-left: 2.2%;
+	text-transform: uppercase; 
+}
+.story{
+	float: left;
+	width: 26%;
+}
+header .look{
+	position: relative;
+	float: left;
+	margin: 82px 0 0 59px;
+}
+.look{
+	display: inline-block;
+	width: 140px;
+	font: normal 28px/28px 'm_brody';
+	color: #626570;
+}
+.look::before{
+	position: absolute;
+	content: '';
+	top: 14px;
+	left: 112px;
+	width: 35px;
+	height: 35px;
+	background: url('../assets/images/arrow.png') no-repeat;
+	background-size: 100% auto;
+}
 
 
 
