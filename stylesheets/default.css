@@ -21,7 +21,7 @@ img{
 	clear: both; 
 	float: none;
 }
-.wrapper{
+.main-wrapper{
 	position: relative;
 	margin: 0 auto;
 	max-width: 1024px;
@@ -31,7 +31,7 @@ header{
 	background: url('../assets/images/bg-top.png') 0 12px repeat-x;
 	background-color: #33333b;
 }
-header .wrapper{
+header .main-wrapper{
 	background: radial-gradient(rgba(200,200,220,0.3) 5%, rgba(0,0,0,0) 60%) 194px 0 no-repeat;
 	background-size: 800px 641px;
 }
@@ -179,22 +179,87 @@ header .look{
 	background: url('../assets/images/arrow.png') no-repeat;
 	background-size: 100% auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.download{
+	position: relative;
+	width: 234px;
+	margin:4% 0 0 2%;
+	float: left;
+}
+.download a{
+	display: block;
+	border-radius: 8px;
+	padding: 3% 0% 5% 27%;
+	box-sizing: border-box;
+}
+.head-text{
+	width: 100%;
+	font: bold 18px/28px 'PT-sans';
+	text-align: center;
+	margin: 0 auto;
+	color: #85837d;
+}
+.head-text:first-of-type{
+	width: 70%;
+}
+.separator{
+	position: relative;
+	font: normal 33px 'm_brody';
+	margin: 0;
+	text-align: center;
+	color: #85837d;
+}
+.source{
+	font: normal 17px 'MYRIADPRO';
+	margin: 4% 0;
+}
+.source:visited{
+	color: white;
+}
+.source strong{
+	position: relative;
+	font: 600 34px/28px 'MYRIADPRO';
+}
+.source strong::before{
+	position: absolute;
+	content: '';
+	height: 52px;
+	width: 28px;
+	right: 106%;
+	bottom: 7%;
+	font: 600 29px 'MYRIADPRO';
+}
+.source.s1 strong::before{
+	background: url('../assets/images/phone_orange.png') 0 0 no-repeat;
+	background-size: auto 100%;
+	background-position: -28px 0;
+}
+.source.s2 strong::before{
+	background: url('../assets/images/phone_greey.png') 0 0 no-repeat;
+	background-size: auto 100%;
+	background-position: -28px 0;
+}
+.source.s1{
+	background: linear-gradient(#f0e082, #cb9c15);
+	border: 1px solid #edb47a;
+	box-shadow: 0px  3px  2px #9a7920;
+}
+.source.s2{
+	background: linear-gradient(#d8d4c8, #b5ae9b);
+	border: 1px solid #d0cbbd; 
+	box-shadow: 0px  3px  3px #968d73;
+}
+.source.s1:hover{
+	background: linear-gradient(#b48a13, #e8d97d);
+	color:#b58c14;
+}
+.source.s2:hover{
+	background: linear-gradient(#9b9488, #c8c4bc);
+	color:#9b9488;
+}
+.source.s1:hover strong::before,
+.source.s2:hover strong::before{
+	background-position: 0 0;
+}
 
 
 

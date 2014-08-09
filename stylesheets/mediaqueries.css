@@ -13,6 +13,10 @@
 	.history{
 		display: none;
 	}
+	.download{
+		float: none;
+		margin: 5% auto 0;
+	}
 }
 
 @media only screen and (min-width: 768px) and ( max-width: 1023px ){
@@ -71,6 +75,47 @@
 	}
 	.additional-info {
 		padding-bottom: 37px;
+	}
+	.download{
+		width: 83%;
+		max-width: 583px;
+		min-width: 555px;
+	}
+	.download a {
+		padding: 1% 0 2% 11%;
+	}
+	.head-text{
+		position: absolute;
+	}
+	.head-text:first-of-type{
+		top: 0;
+		left: 38px;
+		width: 157px;
+	}
+	.head-text:last-of-type{
+		top: 0;
+		right: 39px;
+		width: 157px;
+	}
+	.source {
+		width: 235px;
+		margin-top: 65px;
+	}
+	.source.s1{
+		float: left;
+	}
+	.source.s2{
+		float: right;
+	}
+	.separator::before, 
+	.separator::after{
+		content: none;
+	}
+	.separator{
+		position: absolute;
+		width: 47px;
+		margin: 77px 4% 0;
+		display: inline-block;
 	}
 	address{
 		margin-left: 8%;
@@ -187,6 +232,7 @@
 	.additional-info div:nth-of-type(3){
 		display: none;
 	}
+
 	footer {
 		padding-bottom: 9%;
 	}
@@ -241,7 +287,6 @@
 		text-align: left;
 		width: 54%;
 	}
-
 	.availability::before{
 		left: 92%;
 		width: 13%;
