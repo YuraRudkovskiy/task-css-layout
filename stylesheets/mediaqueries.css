@@ -37,7 +37,7 @@
 
     header .head-info {
         margin-top: 12%;
-        width: 100%;
+        width: 96%;
         position: relative;
         text-align: center;
         padding-bottom: 4%;
@@ -75,7 +75,7 @@
     }
 
     .availability::before {
-        left: 80%;
+        left: 84%;
         width: 31%;
     }
 
