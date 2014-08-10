@@ -1,396 +1,479 @@
-@media only screen and ( max-width: 1023px ){
-	header{
-		background-position: 0 5px;
-	}
-	.logo{
-		border-bottom-left-radius: 15px;
-		border-bottom-right-radius: 15px;
-	}
-	.additional-info hr,
-	.history{
-		display: none;
-	}
-	.download{
-		float: none;
-		margin: 5% auto 0;
-	}
+@media only screen and ( max-width: 1023px ) {
+    header {
+        background-position: 0 5px;
+    }
+
+    .logo {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .additional-info hr,
+    .history {
+        display: none;
+    }
+
+    .download {
+        float: none;
+        margin: 5% auto 0;
+    }
 }
 
-@media only screen and (min-width: 768px) and ( max-width: 1023px ){
-	.social-networks{
-		margin-top: 2.994792%;
-		margin-right: 5.2%;
-		width: 65%;
-	}
-	.social-networks button{
-		margin-left: 0;
-		margin-right: 9%;
-	}
-	.social-networks button:first-of-type {
-		margin-right: 3%;
-	}
-	header .info{
-		margin-top: 12%;
-		width: 100%;
-		position: relative;
-		text-align: center;
-		padding-bottom: 4%;
-	}
-	.horror-stories{
-		display: block;
-		font-size: 18px;
-		width: 53%;
-		margin: 1.5% auto 0 auto;
-		padding-bottom: 2%;
-	}
-	.story {
-		width: 13%;
-		max-width: 84px;
-		margin-left: 28%;
-	}
-	.nerves{
-		display: none;
-	}
-	header h1 {
-		float: left;
-		width: 39%;
-		padding: 0 8% 0 1%;
-		text-align: left;
-	}
-	.availability{
-		position: absolute;
-		bottom: 112%;	
-		width: 100%;
-	}
-	.availability::before{
-		left: 80%;
-		width: 31%;
-	}
-	.availability::after{
-		right: 48%;
-		width: 36%;
-	}
-	.additional-info {
-		padding-bottom: 37px;
-	}
-	.download{
-		width: 83%;
-		max-width: 583px;
-		min-width: 555px;
-	}
-	.download a {
-		padding: 1% 0 2% 11%;
-	}
-	.head-text{
-		position: absolute;
-	}
-	.head-text:first-of-type{
-		top: 0;
-		left: 38px;
-		width: 157px;
-	}
-	.head-text:last-of-type{
-		top: 0;
-		right: 39px;
-		width: 157px;
-	}
-	.source {
-		width: 235px;
-		margin-top: 65px;
-	}
-	.source.s1{
-		float: left;
-	}
-	.source.s2{
-		float: right;
-	}
-	.separator::before, 
-	.separator::after{
-		content: none;
-	}
-	.separator{
-		position: absolute;
-		width: 47px;
-		margin: 77px 4% 0;
-		display: inline-block;
-	}
-	.phones{
-		position: static;
-		/* margin-bottom: 127px; */
-	}
-	.look{
-		position: relative;
-		top: 60px;
-		left: 39px;
-	}
-	.iphone{
-		position: relative;
-		top: 178px;
-		left: 75px;
-		float: left;
-	
-}
-	.ipad{
-		position: relative;	
-		top: -65px;
-		left: -18px;
-		float: right;
-	
-		width: 517px;
-}
-	address{
-		margin-left: 8%;
-	}
-	.likes{
-		width: 310px;
-		margin-top: 0px;
-	}
-	.likes a{
-		margin: 0 6.5% 8%;
-	}
-	.likes a:nth-child(3){
-		margin-right: 0;
-	}
-	.likes a:last-of-type{
-		margin: 0 4.5%;
-	}
+@media only screen and (min-width: 768px) and ( max-width: 1023px ) {
+    .social-networks {
+        margin-top: 2.994792%;
+        margin-right: 5.2%;
+        width: 65%;
+    }
+
+    .social-networks a {
+        margin-left: 0;
+        margin-right: 9%;
+    }
+
+    .social-networks a:first-of-type {
+        margin-right: 3%;
+    }
+
+    header .head-info {
+        margin-top: 12%;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .horror-stories {
+        display: block;
+        font-size: 18px;
+        width: 53%;
+        margin: 1.5% auto 0 auto;
+        padding-bottom: 2%;
+    }
+
+    .story {
+        width: 13%;
+        max-width: 84px;
+        margin-left: 28%;
+    }
+
+    .nerves {
+        display: none;
+    }
+
+    header h1 {
+        float: left;
+        width: 39%;
+        padding: 0 8% 0 1%;
+        text-align: left;
+    }
+
+    .availability {
+        position: absolute;
+        bottom: 112%;
+        width: 100%;
+    }
+
+    .availability::before {
+        left: 80%;
+        width: 31%;
+    }
+
+    .availability::after {
+        right: 48%;
+        width: 36%;
+    }
+
+    .additional-info {
+        padding-bottom: 37px;
+    }
+
+    .download {
+        width: 83%;
+        max-width: 583px;
+        min-width: 555px;
+    }
+
+    .download a {
+        padding: 1% 0 2% 11%;
+    }
+
+    .head-text {
+        position: absolute;
+    }
+
+    .head-text:first-of-type {
+        top: 0;
+        left: 38px;
+        width: 157px;
+    }
+
+    .head-text:last-of-type {
+        top: 0;
+        right: 39px;
+        width: 157px;
+    }
+
+    .source {
+        width: 235px;
+        margin-top: 65px;
+    }
+
+    .source.s1 {
+        float: left;
+    }
+
+    .source.s2 {
+        float: right;
+    }
+
+    .separator::before,
+    .separator::after {
+        content: none;
+    }
+
+    .separator {
+        position: absolute;
+        width: 47px;
+        margin: 77px 4% 0;
+        display: inline-block;
+    }
+
+    .phones {
+        position: static;
+    }
+
+    .look {
+        position: relative;
+        top: 60px;
+        left: 39px;
+    }
+
+    .iphone {
+        position: relative;
+        top: 178px;
+        left: 75px;
+        float: left;
+    }
+
+    .ipad {
+        position: relative;
+        top: -65px;
+        left: -18px;
+        float: right;
+
+        width: 517px;
+    }
+
+    address {
+        margin-left: 8%;
+    }
+
+    .likes {
+        width: 310px;
+        margin-top: 0px;
+    }
+
+    .likes a {
+        margin: 0 6.5% 8%;
+    }
+
+    .likes a:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .likes a:last-of-type {
+        margin: 0 4.5%;
+    }
 }
 
-@media only screen and (min-width: 480px) and ( max-width: 767px ){
-	.social-networks button:first-of-type {
-		margin-right: 9%;
-	}
-	header .info{
-		margin-top: 5%;
-		width: 100%;
-		position: relative;
-		text-align: center;
-	}
-	.horror-stories{
-		display: block;
-		font-size: 19px;
-		width: 86%;
-		margin: -2.5% auto 0;
-		text-align: justify;
-	}
-	.story {
-		max-width: 84px;
-		width: 17%;
-		margin: 0 auto;
-		float: none;
-	}
-	header h1 {
-		width: 100%;
-		font-size: 31px;
-		margin-top: 6%;
-		float: none;
-	}
-	.availability{	
-		width: 100%;
-		position: absolute;
-		bottom: 63.5555%;
-	}
-	.availability::before{
-		left: 85%;
-		width: 21%;
-	}
-	.availability::after{
-		right: 64%;
-		width: 20%;
-	}
-	.nerves{
-		visibility: hidden;
-	}
-	header .info{
-		margin-left: 0;
-	}
-	.likes a{
-		margin: 0 3%;
-	}
+@media only screen and (min-width: 480px) and ( max-width: 767px ) {
+    .social-networks a:first-of-type {
+        margin-right: 9%;
+    }
+
+    header .head-info {
+        margin-top: 5%;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .horror-stories {
+        display: block;
+        font-size: 19px;
+        width: 86%;
+        margin: -2.5% auto 0;
+        text-align: justify;
+    }
+
+    .story {
+        max-width: 84px;
+        width: 17%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 31px;
+        margin-top: 6%;
+        float: none;
+    }
+
+    .availability {
+        width: 100%;
+        position: absolute;
+        bottom: 63.5555%;
+    }
+
+    .availability::before {
+        left: 85%;
+        width: 21%;
+    }
+
+    .availability::after {
+        right: 64%;
+        width: 20%;
+    }
+
+    .nerves {
+        visibility: hidden;
+    }
+
+    header .head-info {
+        margin-left: 0;
+    }
+
+    .likes a {
+        margin: 0 3%;
+    }
 }
 
-@media only screen and ( max-width: 767px ){
-	.logo{
-		width: 12.92%;
-	}
-	.cat{
-		width: 70.96774%;
-		margin: 14.51613% 14.51613% 14.51613%;
-	}
-	.cat-will{
-		display: none;
-	}
-	.social-networks button{
-		width: 44px;
-		height: 44px;
-		margin-left: 13.158594%;
-	}
-	.social-networks button:last-of-type {
-		margin-left: 0;
-	}
-	.social-networks{
-		width: 80%;
-		margin-right: 1%;
-	}
-	.social-networks .twitter{
-		background-position: 11px 12px;
-	}
-	.social-networks .facebook{
-		background-position: 16px 12px;
-	}
-	.social-networks .mail{
-		background-position: 11px 13px;
-	}
-	.social-networks .vk{
-		background-position: 7px 15px;
-	}
-	.additional-info p{
-		line-height: 21px;
-	}
-	.additional-info div{
-		margin-bottom: 22px;
-	}
-	.additional-info div:nth-of-type(3){
-		display: none;
-	}
-	.look{
-		display: none;
-	}
-	.ipad{
-		display: none;
-	}
-	.phones{
-		position: static;
-		width: 100%;
-		background: radial-gradient(rgba(200,200,220,0.3) 5%, rgba(0,0,0,0) 60%) 325px 10px no-repeat,       
-					url('../assets/images/bg-top.png') 0 0 repeat-x;
-		margin-top: 21px;
-	}
-	.iphone{
-		position: static;
-		margin: 0 auto;
-	}
-	.denotation{
-		display: block;
-		text-align: center;
-		margin: 0;
-		padding: 20px 0;
-		font: normal 24px 'MYRIADPRO';
-		color: #525051;
-	}
-	.denotation strong {
-		color: #bcbaab;
-		text-decoration: underline;
-	}
-	.iphone .button{
-		width: 34px;
-		height: 62px;
-		border: none;
-		background: url('../assets/images/arrows_big.png') 0 0 no-repeat;
-		background-size: 90px 50px;
-		background-color: transparent;
-		position: relative;
-		bottom: 227px;
-	}
-	.iphone .button:first-of-type{
-		background-position: -62px 7px;
-		right: 45%;
-	}
-	.iphone .button:last-of-type{
-		background-position: 6px 7px;
-		left: 45%;
-	}
-	.iphone .slider-control {
-		margin: 5px 50px;
-	}
-	.additional-info{
-		margin-top: 5%;
-	}
-	footer {
-		padding-bottom: 9%;
-	}
-	address,
-	.likes{
-		float: none;
-		margin: 0 auto;
-	}
-	address{
-		text-align: center;
-		margin-top: 6%;
-		font: normal 23px/32px 'MYRIADPRO';
-		color: #7f7f87;
-	}
-	address a {
-		background-color: #1e1e22;
-		width: 216px;
-		margin: 14px auto;
-		color: #7f7f87;
-	}
+@media only screen and ( max-width: 767px ) {
+    .logo {
+        width: 12.92%;
+    }
+
+    .cat {
+        width: 70.96774%;
+        margin: 14.51613% 14.51613% 14.51613%;
+    }
+
+    .cat-will {
+        display: none;
+    }
+
+    .social-networks a {
+        width: 44px;
+        height: 44px;
+        margin-left: 13.158594%;
+    }
+
+    .social-networks a:last-of-type {
+        margin-left: 0;
+    }
+
+    .social-networks {
+        width: 80%;
+        margin-right: 1%;
+    }
+
+    .social-networks .twitter {
+        background-position: 11px 12px;
+    }
+
+    .social-networks .facebook {
+        background-position: 16px 12px;
+    }
+
+    .social-networks .mail {
+        background-position: 11px 13px;
+    }
+
+    .social-networks .vk {
+        background-position: 7px 15px;
+    }
+
+    .additional-info p {
+        line-height: 21px;
+    }
+
+    .additional-info div {
+        margin-bottom: 22px;
+    }
+
+    .additional-info div:nth-of-type(3) {
+        display: none;
+    }
+
+    .look {
+        display: none;
+    }
+
+    .ipad {
+        display: none;
+    }
+
+    .phones {
+        position: static;
+        width: 100%;
+        background: radial-gradient(rgba(200, 200, 220, 0.3) 5%, rgba(0, 0, 0, 0) 60%) 325px 10px no-repeat, url('../assets/images/bg-top.png') 0 0 repeat-x;
+        margin-top: 21px;
+    }
+
+    .iphone {
+        position: static;
+        margin: 0 auto;
+    }
+
+    .denotation {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+        font: normal 24px 'MYRIADPRO';
+        color: #525051;
+    }
+
+    .denotation strong {
+        color: #bcbaab;
+        text-decoration: underline;
+    }
+
+    .iphone .slider-button {
+        width: 34px;
+        height: 62px;
+        border: none;
+        background: url('../assets/images/arrows_big.png') 0 0 no-repeat;
+        background-size: 90px 50px;
+        background-color: transparent;
+        position: relative;
+        bottom: 227px;
+    }
+
+    .iphone .slider-button:first-of-type {
+        background-position: -62px 7px;
+        right: 45%;
+    }
+
+    .iphone .slider-button:last-of-type {
+        background-position: 6px 7px;
+        left: 45%;
+    }
+
+    .iphone .slider-control {
+        margin: 5px 50px;
+    }
+
+    .additional-info {
+        margin-top: 5%;
+    }
+
+    footer {
+        padding-bottom: 9%;
+    }
+
+    address,
+    .likes {
+        float: none;
+        margin: 0 auto;
+    }
+
+    address {
+        text-align: center;
+        margin-top: 6%;
+        font: normal 23px/32px 'MYRIADPRO';
+        color: #7f7f87;
+    }
+
+    address a {
+        background-color: #1e1e22;
+        width: 216px;
+        margin: 14px auto;
+        color: #7f7f87;
+    }
 }
 
-@media only screen and ( max-width: 479px ){
-	.social-networks{
-		width: 75%;
-	}
-	.social-networks button:first-of-type {
-		margin-right: 2%;
-	}
-	.social-networks button{
-		margin-left: 5.158594%;
-	}
-	header .info{
-		margin-top: 5%;
-		width: 100%;
-		position: relative;
-		text-align: center;
-	}
-	.horror-stories{
-		display: block;
-		font-size: 19px;
-		width: 75%;
-		margin: 9.5% auto 4%;
-	}
-	.story {
-		width: 23%;
-		margin: 6% 0 0 18%;
-	}
-	header h1 {
-		font-size: 31px;
-		margin-top: 6%;
-		text-align: left;
-		width: 54%;
-	}
-	.availability::before{
-		left: 92%;
-		width: 13%;
-	}
-	.availability::after{
-		right: 78%;
-		width: 14%;
-	}
-	.nerves{
-		display: none;
-	}
-	header .info{
-		margin-left: 0;
-	}
-	.iphone .button:first-of-type{
-		right: 35%;
-	}
-	.iphone .button:last-of-type{
-		left: 35%;
-	}
-	.likes{
-		width: 300px;
-		margin-top: 0px;
-	}
-	.likes a{
-		margin: 0 6.5% 8%;
-	}
-	.likes a:nth-child(3){
-		margin-right: 0;
-	}
-	.likes a:last-of-type{
-		margin: 0 4.5%;
-	}
+@media only screen and ( max-width: 479px ) {
+    .social-networks {
+        width: 75%;
+    }
+
+    .social-networks a:first-of-type {
+        margin-right: 2%;
+    }
+
+    .social-networks a {
+        margin-left: 5.158594%;
+    }
+
+    header .head-info {
+        margin-top: 5%;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .horror-stories {
+        display: block;
+        font-size: 19px;
+        width: 75%;
+        margin: 9.5% auto 4%;
+    }
+
+    .story {
+        width: 23%;
+        margin: 6% 0 0 18%;
+    }
+
+    header h1 {
+        font-size: 31px;
+        margin-top: 6%;
+        text-align: left;
+        width: 54%;
+    }
+
+    .availability::before {
+        left: 92%;
+        width: 13%;
+    }
+
+    .availability::after {
+        right: 78%;
+        width: 14%;
+    }
+
+    .nerves {
+        display: none;
+    }
+
+    header .head-info {
+        margin-left: 0;
+    }
+
+    .iphone .slider-button:first-of-type {
+        right: 33%;
+    }
+
+    .iphone .slider-button:last-of-type {
+        left: 33%;
+    }
+
+    .likes {
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    .likes a {
+        margin: 0 6.5% 8%;
+    }
+
+    .likes a:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .likes a:last-of-type {
+        margin: 0 4.5%;
+    }
 }
