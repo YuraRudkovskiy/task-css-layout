@@ -71,20 +71,23 @@ header .main-wrapper {
     width: 44%;
 }
 
-.social-networks a {
+.social-networks li {
     width: 58px;
     height: 58px;
     margin-left: 9.158594%;
-    border-radius: 50%;
-    border: none;
-    box-shadow: 1px 2px 1px #242529;
+    list-style-type: none;
     float: right;
 }
-
-.social-networks a:first-of-type {
+.social-networks a{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 2px 1px #242529;
+    display: block;
+}
+.social-networks li:first-of-type a{
     background-color: #1e1e22;
 }
-
 .social-networks .twitter {
     background: url('../assets/images/twitter.png') 12px 15px no-repeat;
     background-size: auto 50%;
