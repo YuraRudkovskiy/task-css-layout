@@ -161,10 +161,10 @@
         top: -65px;
         left: -18px;
         float: right;
-
         width: 517px;
+        -ms-transform: translate3d(0px, 130px, 0px);
+        -moz-transform: translate3d(0px, 130px, 0px);
     }
-
     address {
         margin-left: 8%;
     }
