@@ -130,6 +130,7 @@ header .main-wrapper {
     height: 1px;
     top: 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
 }
 
 .separator::before,

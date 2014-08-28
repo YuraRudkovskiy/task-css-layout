@@ -1,48 +1,76 @@
 @font-face {
     font-family: 'm_brody';
-    src: url('../fonts/m_brody.woff') format('woff');
+    src: url('../fonts/m_brody.eot');
+    src: url('../fonts/m_brody.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/m_brody.woff') format('woff'),
+         url('../fonts/m_brody.ttf') format('truetype'),
+         url('../fonts/m_brody.svg#droid_sans_monoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RobotoCondensed';
-    src: url('../fonts/RobotoCondensed-Regular.woff') format('woff');
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular.svg#droid_sans_monoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT-sans';
-    src: url('../fonts/PT-sans.woff') format('woff');
+    src: url('../fonts/PT-sans.eot');
+    src: url('../fonts/PT-sans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PT-sans.woff') format('woff'),
+         url('../fonts/PT-sans.ttf') format('truetype'),
+         url('../fonts/PT-sans.svg#droid_sans_monoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT-sans';
-    src: url('../fonts/PT-sans-bold.woff') format('woff');
+    src: url('../fonts/PT-sans-bold.eot');
+    src: url('../fonts/PT-sans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PT-sans-bold.woff') format('woff'),
+         url('../fonts/PT-sans-bold.ttf') format('truetype'),
+         url('../fonts/PT-sans-bold.svg#droid_sans_monoregular') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MYRIADPRO';
-    src: url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    src: url('../fonts/MYRIADPRO-REGULAR.eot');
+    src: url('../fonts/MYRIADPRO-REGULAR.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MYRIADPRO-REGULAR.woff') format('woff'),
+         url('../fonts/MYRIADPRO-REGULAR.ttf') format('truetype'),
+         url('../fonts/MYRIADPRO-REGULAR.svg#droid_sans_monoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MYRIADPRO';
-    src: url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.eot');
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff'),
+         url('../fonts/MYRIADPRO-SEMIBOLD.ttf') format('truetype'),
+         url('../fonts/MYRIADPRO-SEMIBOLD.svg#droid_sans_monoregular') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MYRIADPRO';
-    src: url('../fonts/MYRIADPRO-BOLD.woff') format('woff');
+    src: url('../fonts/MYRIADPRO-BOLD.eot');
+    src: url('../fonts/MYRIADPRO-BOLD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MYRIADPRO-BOLD.woff') format('woff'),
+         url('../fonts/MYRIADPRO-BOLD.ttf') format('truetype'),
+         url('../fonts/MYRIADPRO-BOLD.svg#droid_sans_monoregular') format('svg');
     font-weight: bold;
     font-style: normal;
 }
